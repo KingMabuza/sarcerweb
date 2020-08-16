@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("static/brandon-vazquez.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  font-family: 'Libre Caslon Display', serif;
+  font-size: medium;
+}
+
+.homeContent{
+  margin-top: 35vh;
+  padding: 0 !important;
+  overflow: hidden;
+}
+.aboutContent{
+  margin-top: 30vh;
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.contactContent{
+  margin-top: 20vh;
+  overflow: auto;
+}
+.contactFooter{
+  margin-top: 15vh !important;
+}
+#services{
+  height: 180px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.s11{
+  padding: 0 !important;
+}
+li{
+  list-style: none;
+  padding-top: 20px;
+  margin-left: 15px;
+}
+.navigation{
+  margin-top: 35vh;
+}
+a{
+  color: white !important;
+}
+footer{
+  margin-top: 30vh;
+}
+
+.s1{
+  padding: 0!important;
+}
+button{
+  border: 1px white solid !important;
+}
+
+@media screen and (max-height: 550px){
+  .contactContent{
+    margin-top: 5vh;
+    overflow: auto;
+  }
+}
+
+@media screen and (min-height: 555px) and (max-height: 640px){
+  .contactContent{
+    margin-top: 10vh;
+    overflow: auto;
+  }
+  .navigation{
+    margin-top: 30vh;
+  }
+}
+
+@media screen and (max-height: 480px){
+  .homeContent{
+    margin-top: 20vh;
+    padding: 0 !important;
+    overflow: hidden;
+  }
+  .aboutContent{
+    margin-top: 15vh;
+    padding: 0 !important;
+    overflow: hidden;
+  }
+  .navigation{
+    margin-top: 20vh;
+  }
+}
+
+@media screen and (min-height: 1150px){
+  .navigation{
+    margin-top: 30vh;
+  }
+}
+
+@media screen and (max-width: 300px){
+  .contactContent{
+    margin-top: 10vh;
+    overflow: auto;
+  }
+}
+
+@import "static/materialize-src/sass/materialize";
