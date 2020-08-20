@@ -6,7 +6,6 @@ import Nav from "./Nav";
 function Home() {
     return(
         <div>
-
             <div className={'row'}>
                 <div className={'col s2'}>
                     <Nav/>
