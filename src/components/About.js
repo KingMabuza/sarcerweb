@@ -29,7 +29,6 @@ function About() {
                     <li ><a href={'www.instagram.com/sarcer'}>INSTAGRAM</a></li>
                     <li><a href={'www.linkedin.com/sarcer'}>LINKEDIN</a></li>
                 </div>
-
                 <Footer/>
             </div>
         </div>
