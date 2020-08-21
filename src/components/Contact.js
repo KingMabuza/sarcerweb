@@ -10,7 +10,7 @@ function Contact() {
         emailjs.sendForm('zoho', 'sarcer_contact', e.target, 'user_i42NihVkbu5mbE2TKIvhj')
             .then((result) => {
                 console.log(result.text);
-                navigate('/')
+                navigate('/alert')
             }, (error) => {
                 console.log(error.text);
             });
