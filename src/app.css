@@ -3,6 +3,7 @@ body {
   color: white;
   font-family: "Libre Caslon Display", serif;
   font-size: medium;
+  overflow: auto;
 }
 
 .homeContent {
